@@ -158,7 +158,9 @@
 // #define SPI_FREQUENCY   5000000
 // #define SPI_FREQUENCY  10000000
 // #define SPI_FREQUENCY  20000000
+#ifndef SPI_FREQUENCY
  #define SPI_FREQUENCY  27000000 // Actually sets it to 26.67MHz = 80/3
+#endif
 // #define SPI_FREQUENCY  40000000 // Maximum to use SPIFFS
 // #define SPI_FREQUENCY  80000000
 
